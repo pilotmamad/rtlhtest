@@ -1,0 +1,73 @@
+@import "swiper/css";
+@import "swiper/css/effect-fade";
+@import "swiper/css/pagination";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+  background: #faf7f2;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+  background: #faf7f2;
+  color: #1c1a18;
+}
+
+::selection {
+  background: #c9a96e;
+  color: white;
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+
+@layer components {
+  .container-atelier {
+    @apply mx-auto w-full max-w-6xl px-5 sm:px-8 lg:px-10;
+  }
+
+  .eyebrow {
+    @apply text-[10px] uppercase tracking-[0.3em] text-champagne;
+  }
+
+  .section-title {
+    @apply font-serif text-4xl font-light leading-[1.05] text-charcoal sm:text-5xl lg:text-6xl;
+  }
+
+  .body-copy {
+    @apply text-sm font-light leading-8 text-warm-gray sm:text-[15px];
+  }
+
+  .btn-primary {
+    @apply inline-flex min-w-0 items-center justify-center gap-2 bg-charcoal px-6 py-4 text-center text-[11px] uppercase leading-5 tracking-[0.14em] text-white transition hover:bg-champagne sm:px-7 sm:tracking-[0.18em];
+  }
+
+  .btn-ghost {
+    @apply inline-flex min-w-0 items-center justify-center gap-2 border border-line px-6 py-4 text-center text-[11px] uppercase leading-5 tracking-[0.14em] text-charcoal transition hover:border-champagne hover:text-champagne sm:px-7 sm:tracking-[0.18em];
+  }
+
+  .input-atelier {
+    @apply w-full border border-line bg-white px-4 py-3.5 text-sm text-charcoal outline-none transition placeholder:text-warm-gray/45 focus:border-champagne;
+  }
+
+  .panel {
+    @apply border border-line bg-white;
+  }
+}

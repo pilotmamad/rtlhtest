@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1125">
+  <rect width="900" height="1125" fill="#EDE8DF"/>
+  <rect x="90" y="120" width="720" height="885" fill="#FAF7F2"/>
+  <path d="M180 790h540" stroke="#C9A96E" stroke-width="2"/>
+  <rect x="250" y="305" width="400" height="300" rx="20" fill="#8B7355" opacity=".28"/>
+  <rect x="290" y="350" width="320" height="210" rx="14" fill="#1C1A18" opacity=".84"/>
+  <path d="M330 452h240" stroke="#C9A96E" stroke-width="12" stroke-linecap="round"/>
+  <text x="340" y="915" font-family="Cormorant Garamond, serif" font-size="132" fill="#C9A96E" opacity=".35">ر</text>
+</svg>

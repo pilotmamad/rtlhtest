@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000">
+  <rect width="1600" height="1000" fill="#1C1A18"/>
+  <circle cx="1180" cy="340" r="330" fill="#C9A96E" opacity=".2"/>
+  <rect x="210" y="610" width="1180" height="90" fill="#FAF7F2" opacity=".82"/>
+  <rect x="360" y="500" width="220" height="150" rx="8" fill="#C9A96E" opacity=".76"/>
+  <rect x="660" y="450" width="420" height="220" rx="10" fill="#EDE8DF" opacity=".72"/>
+  <path d="M160 760c260-78 514-102 770-70 170 22 330 16 510-48" stroke="#C9A96E" stroke-width="2" fill="none" opacity=".45"/>
+  <text x="1040" y="842" font-family="Cormorant Garamond, serif" font-size="118" fill="#FAF7F2" opacity=".16">LIVE</text>
+</svg>

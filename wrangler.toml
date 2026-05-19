@@ -1,0 +1,8 @@
+name = "rtlh-checkout-api"
+main = "workers/create-checkout.ts"
+compatibility_date = "2026-05-17"
+
+[[d1_databases]]
+binding = "RTLH_ORDERS"
+database_name = "rtlh_orders"
+database_id = "replace-with-cloudflare-d1-database-id"
